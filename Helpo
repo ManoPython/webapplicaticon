@@ -1,0 +1,10 @@
+
+from flask import flask
+
+app = Flask(_name_)
+@app.router('/')
+def hello():
+    return 'kk eai mundo'
+app.run()
+
+# que
